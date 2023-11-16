@@ -4,11 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link CSS  -->
     <link rel="stylesheet" href="main.css">
+
+    <!-- Link Favicon  -->
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
+
     <title>RazorPay Clone</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
+
+    <!-- CTA Banner Start -->
+    <div class="w-full h-[52px] bg-white relative">
+        <div
+            class="w-0 h-0 absolute top-0 bottom-0 left-0 border-lightBlue border-b-[52px] border-b-lightBlue border-r-[40px] border-r-transparent z-[15]">
+        </div>
+
+        <div class="w-2 h-[52px] bg-[#C4DDF9] skew-x-[38deg] absolute left-5 z-[12]"></div>
+
+        <div class="w-[120px] h-[52px] bg-[#E7F1FD] absolute z-[10] left-6 skew-x-[38deg]"></div>
+
+        <div class="w-[140px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[12] left-[9rem]"></div>
+        <div
+            class="absolute top-1/2 left-1/2 z-[1000] w-full -translate-x-1/2 -translate-y-1/2 flex justify-center items-center space-x-4">
+            <p class="block font-mullish">
+                RazorpayX Payroll: 3 Clicks, Payroll Fixed! Automate payroll now!
+            </p>
+            <button class="py-[10px] px-4 bg-lightBlue text-white font-mullish font-bold text-xs rounded-md">
+                Know More
+            </button>
+        </div>
+        <div class="w-[140px] h-[52px] bg-[#F3F8FE] skew-x-[38deg] absolute z-[12] right-[4rem] lg:right-[9rem]"></div>
+        <div class="w-[120px] h-[52px] bg-[#E7F1FD] skew-x-[38deg] absolute z-[10] right-4 lg:right-6"></div>
+        <div class="hidden lg:block w-2 h-[52px] bg-[#C4DDF9] skew-x-[38deg] absolute right-5 z-[12]"></div>
+        <div
+            class="w-0 h-0 absolute top-0 bottom-0 right-0 border-t-[52px] border-t-lightBlue border-l-[40px] border-l-transparent z-[14]">
+        </div>
+    </div>
+    <!-- CTA Banner End -->
+
+    <!-- Nav Bar -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
 
@@ -76,8 +113,48 @@
                 </button>
             </div>
         </div>
-
     </nav>
+    <!-- NavBar Ends  -->
+
+    <!-- Hero Section -->
+    <section class=" relative bg-deepBlue">
+
+        <div class="w-10/12 max-w-[1080px] flex flex-row justify-center items-center mx-auto">
+            <!-- Left Part -->
+
+            <div class="space-y-5"> <!-- class="flex flex-col gap-4" -->
+                <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">
+                    Power your finance, grow your
+                    business</h1>
+
+                <div class="w-6 h-1 bg-greenLight"></div>
+
+                <p class="text-white font-mullish text-[18px] leading-7 opacity-70">
+                    Accept payments from customers, Automate payouts to vendors &
+                    employees. Never run out of working capital.
+                </p>
+                <button
+                    class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">Sign
+                    Up Now</button>
+            </div>
+
+            <!-- Right Part -->
+            <img src="/Images/hero-illustration.jpg" alt="img" class="w-full max-w-[680px] ">
+        </div>
+
+        <!-- Shape Part -->
+        <div class="w-[103%] absolute left-0 right-0">
+            <img src="/Images/hero-shape.svg" alt="img" loading="lazy"
+                class="w-full object-fill z-10 pointer-events-none">
+        </div>
+
+    </section>
+    <!-- Hero Section End  -->
+
+    <!-- feature Section start  -->
+    <section>
+
+    </section>
 
 </body>
 
