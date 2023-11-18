@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- link CSS  -->
+    <!--Link Tailwind CSS-->
     <link rel="stylesheet" href="main.css">
 
     <!-- Link Favicon  -->
     <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
 
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Data feather Right Icon  -->
     <script src="https://unpkg.com/feather-icons"></script>
 
     <title>RazorPay Clone</title>
+
 </head>
 
 <body class="overflow-x-hidden">
@@ -240,14 +245,14 @@
 
             <div class="w-full grid grid-cols-3 gap-4 mt-10">
                 <!-- Box 1 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/payment-link-icon.svg" alt="img"
-                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 featureCardIcon">
 
                     <!-- Box Shape  -->
                     <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none"
-                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 featureCardSVG"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] transition-all duration-200 featureCardSVG"
                         style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                               a 6 6 0 0 1 6 -6 
@@ -263,7 +268,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment
@@ -286,14 +292,14 @@
                 </div>
 
                 <!-- Box 2 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/payment-pages-icon.svg" alt="img"
                         class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
 
                     <!-- Box Shape  -->
                     <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none"
-                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 featureCardSVG"
+                        class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] transition-all duration-200 featureCardSVG"
                         style="stroke-opacity: 0.15">
                         <path d="m 0 6 
                                               a 6 6 0 0 1 6 -6 
@@ -309,7 +315,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
@@ -331,7 +338,7 @@
                 </div>
 
                 <!-- Box 3 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/payment-button.svg" alt="img"
                         class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
 
@@ -354,7 +361,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment
@@ -376,7 +384,7 @@
                 </div>
 
                 <!-- Box 4 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/subscriptions-icon.svg" alt="img"
                         class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
 
@@ -399,7 +407,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
@@ -421,7 +430,7 @@
                 </div>
 
                 <!-- Box 5 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/route-icon.svg" alt="img"
                         class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
 
@@ -444,7 +453,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Route
@@ -464,8 +474,9 @@
                     </div>
 
                 </div>
+
                 <!-- Box 6 -->
-                <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <div class="featureCard w-full min-h-[15rem] relative cursor-pointer">
                     <img src="/Images/smart-collect-icon.svg" alt="img"
                         class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
 
@@ -488,7 +499,8 @@
                     </svg>
 
                     <!-- box - content -->
-                    <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                    <div
+                        class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                         <!-- text-part -->
                         <div>
                             <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Smart
@@ -610,14 +622,14 @@
                 <!-- card box -->
                 <div class="grid grid-cols-3 gap-4 mt-10">
                     <!-- Box 1 -->
-                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                    <div class="featureCard2 w-full min-h-[15rem] relative cursor-pointer">
                         <img src="/Images/current-icon.svg" alt="img"
-                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 featureCardIcon">
 
                         <!-- Box Shape  -->
                         <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
                             preserveAspectRatio="none"
-                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 featureCardSVG"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] transition-all duration-200 featureCardSVG"
                             style="stroke-opacity: 0.15">
                             <path d="m 0 6 
                                               a 6 6 0 0 1 6 -6 
@@ -633,7 +645,8 @@
                         </svg>
 
                         <!-- box - content -->
-                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <div
+                            class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                             <!-- text-part -->
                             <div>
                                 <h3 class="font-mullish font-extrabold  text-white leading-[1.2] text-[1.375rem]">
@@ -656,14 +669,14 @@
                     </div>
 
                     <!-- Box 2 -->
-                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                    <div class="featureCard2 w-full min-h-[15rem] relative cursor-pointer">
                         <img src="/Images/capital-credit-icon.svg" alt="img"
-                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 featureCardIcon">
 
                         <!-- Box Shape  -->
                         <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
                             preserveAspectRatio="none"
-                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 featureCardSVG"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] transition-all duration-200 featureCardSVG"
                             style="stroke-opacity: 0.15">
                             <path d="m 0 6 
                                                                   a 6 6 0 0 1 6 -6 
@@ -679,7 +692,8 @@
                         </svg>
 
                         <!-- box - content -->
-                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <div
+                            class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                             <!-- text-part -->
                             <div>
                                 <h3 class="font-mullish font-extrabold  text-white leading-[1.2] text-[1.375rem]">
@@ -702,14 +716,14 @@
                     </div>
 
                     <!-- Box 3 -->
-                    <div class="w-full min-h-[15rem] relative cursor-pointer">
+                    <div class="featureCard2 w-full min-h-[15rem] relative cursor-pointer">
                         <img src="/Images/payouts-icon.svg" alt="img"
-                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
+                            class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 featureCardIcon">
 
                         <!-- Box Shape  -->
                         <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg"
                             preserveAspectRatio="none"
-                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200 featureCardSVG"
+                            class="stroke-1 stroke-[#818597] h-full w-full absolute z-[90] transition-all duration-200 featureCardSVG"
                             style="stroke-opacity: 0.15">
                             <path d="m 0 6 
                                                                   a 6 6 0 0 1 6 -6 
@@ -725,7 +739,8 @@
                         </svg>
 
                         <!-- box - content -->
-                        <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
+                        <div
+                            class="featureCardBox z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
                             <!-- text-part -->
                             <div>
                                 <h3 class="font-mullish font-extrabold  text-white leading-[1.2] text-[1.375rem]">
@@ -781,6 +796,16 @@
         </div>
     </section>
 
+    <!-- new Feature Section -->
+
+    <section>
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+
+            
+        </div>
+    </section>
 
 
     <script>
